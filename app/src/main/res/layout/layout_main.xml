@@ -60,6 +60,13 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:orientation="vertical"
                 android:padding="16dp">
+                <Spinner
+                    android:id="@+id/akira_config_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/abc_spinner_textfield_background_material"
+                    android:spinnerMode="dropdown" />
 
                 <TextView
                     android:id="@+id/tx"
